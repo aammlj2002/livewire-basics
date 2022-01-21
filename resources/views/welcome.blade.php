@@ -16,7 +16,9 @@
         <livewire:counter /> --}}
         {{--
         <livewire:contact-form /> --}}
-        <livewire:search-dropdown />
+        {{--
+        <livewire:search-dropdown /> --}}
+        <livewire:pagination />
         @livewireScripts
     </div>
 </body>
