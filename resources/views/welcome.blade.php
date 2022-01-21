@@ -12,8 +12,11 @@
 
 <body>
     <div class="container">
-        <livewire:counter />
-        <livewire:contact-form />
+        {{--
+        <livewire:counter /> --}}
+        {{--
+        <livewire:contact-form /> --}}
+        <livewire:search-dropdown />
         @livewireScripts
     </div>
 </body>
