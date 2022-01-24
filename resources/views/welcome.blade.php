@@ -20,7 +20,14 @@
         <livewire:search-dropdown /> --}}
         {{--
         <livewire:pagination /> --}}
-        <livewire:datatable />
+        {{--
+        <livewire:datatable /> --}}
+        @foreach ($posts as $post)
+        <p>title - {{$post->title}}</p>
+        <p>body - {{$post->content}}</p>
+        <livewire:comments-section :post="$post" />
+        <hr>
+        @endforeach
         @livewireScripts
     </div>
 </body>
