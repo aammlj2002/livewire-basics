@@ -18,7 +18,9 @@
         <livewire:contact-form /> --}}
         {{--
         <livewire:search-dropdown /> --}}
-        <livewire:pagination />
+        {{--
+        <livewire:pagination /> --}}
+        <livewire:datatable />
         @livewireScripts
     </div>
 </body>
