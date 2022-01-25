@@ -28,7 +28,9 @@
         <livewire:comments-section :post="$post" />
         <hr>
         @endforeach --}}
-        <livewire:poll-example />
+        {{--
+        <livewire:poll-example /> --}}
+        <livewire:create-post />
         @livewireScripts
     </div>
 </body>
