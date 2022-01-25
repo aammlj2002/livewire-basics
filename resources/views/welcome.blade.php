@@ -22,12 +22,13 @@
         <livewire:pagination /> --}}
         {{--
         <livewire:datatable /> --}}
-        @foreach ($posts as $post)
+        {{-- @foreach ($posts as $post)
         <p>title - {{$post->title}}</p>
         <p>body - {{$post->content}}</p>
         <livewire:comments-section :post="$post" />
         <hr>
-        @endforeach
+        @endforeach --}}
+        <livewire:poll-example />
         @livewireScripts
     </div>
 </body>
